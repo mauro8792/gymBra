@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Bra Camp Template">
+    <meta name="keywords" content="Bra Camp, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bra Camp</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body onload="showVinilicos()">
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader" on></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header-section header-normal">        
+        <!-- <div class="container-fluid">
+            <div class="row"> 
+                <div class="col-3">
+                    <a href="./index.html">
+                        <img src="img/logo6.png" width="60%" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row top-social">
+                <div class="col-6">
+                    <a href="https://instagram.com/bra.camp?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i> Instagram</a>
+                </div>
+            </div>
+            <div class=" row container">
+                <div class="col-3">
+                    <div class="nav-menu">
+                        <nav class="mainmenu mobile-menu">
+                            <ul>
+                                <li><a href="./index.html">Home</a></li>
+                                
+                                <li><a href="./contact.html">Contacts</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div> -->
+        <div class="container-fluid">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="img/logo6.png" width="50px"  alt="">
+                </a>
+            </div>
+            <div class="top-social">
+                <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                <a href="#"><i class="fa fa-youtube-play"></i></a>
+                <a href="https://instagram.com/bra.camp?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a>
+            </div>
+            <div class="container">
+                <div class="nav-menu">
+                    <nav class="mainmenu mobile-menu">
+                        <ul>
+                            <li ><a href="./index.html">Home</a></li>
+                            <!-- <li><a href="./about-us.html">About us</a></li> -->
+                            <!-- <li><a href="./schedule.html">Schedule</a></li> -->
+                            <li class="active"><a href="./gallery.html">Gallery</a></li>
+                            <!-- <li><a href="./blog.html">Blog</a>
+                                <ul class="dropdown">
+                                    <li><a href="./about-us.html">About Us</a></li>
+                                    <li><a href="./blog-single.html">Blog Details</a></li>
+                                </ul>
+                            </li> -->
+                            <!-- <li><a href="./contact.html">Contacts</a></li> -->
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+          </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Breadcrumb Section Begin -->
+    <section class="breadcrumb-section set-bg spad" data-setbg="img/about-bread.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-text">
+                        <h2>Our Gallery</h2>
+                        <div class="breadcrumb-controls">
+                            <a href="./index.html"><i class="fa fa-home"></i> Home</a>
+                            <span>Gallery</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrumb End -->
+
+    <!-- Gallery Section Begin -->
+    <section class="gallery-section spad" >
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="gallery-controls">
+                        <ul>
+                            <li onclick="showVinilicos()" class="active">Estampado vinílico</li>
+                            <li onclick="showImpress()">Estampado impreso</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row gallery-filter" id="test">             
+            </div>
+        </div>
+    </section>
+    <!-- Gallery Section End -->
+
+    <!-- Cta Section Begin -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8"  class="table-responsive">
+                    <div class="cta-text">
+                        <h3>Talles de estampado impreso</h3>
+                        <table class="table table-striped table-hover">
+                            <thead>
+                              <tr class="table-light">
+                                <th scope="col">Talle</th>
+                                <th scope="col">Ancho</th>
+                                <th scope="col">Largo</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr class="table-light">
+                                <td>S</td>
+                                <td>47</td>
+                                <td>67</td>
+                              </tr>
+                              <tr class="table-light">
+                                <td>M</td>
+                                <td>50</td>
+                                <td>70</td>
+                              </tr>
+                              <tr class="table-light">
+                                <td>L</td>
+                                <td>53</td>
+                                <td>73</td>
+                              </tr> 
+                              <tr class="table-light">
+                                <td>XL</td>
+                                <td>56</td>
+                                <td>76</td>
+                              </tr>
+                              <tr class="table-light">
+                                <td>XXL</td>
+                                <td>59</td>
+                                <td>80</td>
+                              </tr>
+                              <tr class="table-light">
+                                <td>3XL</td>
+                                <td>62</td>
+                                <td>84</td>
+                              </tr>
+                              <tr class="table-light">
+                                <td>4XL</td>
+                                <td>65</td>
+                                <td>86</td>
+                              </tr>
+                              <tr class="table-light">
+                                <td>5XL</td>
+                                <td>70</td>
+                                <td>88</td>
+                              </tr>
+                              <tr class="table-light">
+                                <td>6XL</td>
+                                <td>75</td>
+                                <td>90</td>
+                              </tr>
+                              <tr class="table-light">
+                                <td>7XL</td>
+                                <td>80</td>
+                                <td>92</td>
+                              </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="cta-text">
+                        <h3>Detalles</h3>
+                        <ul >
+                            <li style="font-size: 18px;">Remeras con telas de primera calidad, Algodón 100% jersey 24/1 de textura suave y liviana estampadas en impresión digital DTG (impresión directa sobrela tela)</li>
+                            <li style="font-size: 18px;">Toda la prenda se arma en Overlock de 4 hilos reforzando costuras de seguridad.</li>
+                            <li style="font-size: 18px;">Tirillera de hombro a hombro con hilos de Algodón</li>
+                            <li style="font-size: 18px;">Cuello de reeb fino al tono</li>
+                            <li style="font-size: 18px;">Tapacostura 2AG Fino con hilos de algodón en mangas y cintura</li>
+                        </ul>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="cta-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="cta-text">
+                        <h3>Talles de estampado vinilico</h3>
+                        <img src="img/talleBaja.jpeg"  alt="">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Cta Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footer-logo-item">
+                        <div class="f-logo">
+                            <a href="#"><img src="img/logo6.png" alt=""></a>
+                        </div>
+                        <p>Despite growth of the Internet over the past seven years, the use of toll-free phone numbers
+                            in television advertising continues.</p>                       
+                    </div>
+                </div>               
+                
+            </div>
+        </div>
+        <div class="copyright-text">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="ct-inside"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    
+    </script>
+    <script>
+        function showImpress(){
+            document.getElementById("test").innerHTML = `<div class="col-lg-4 col-sm-6 mix workout">
+                    <div class="">                        
+                        <div class="wrapper"style="background: #151515; ">
+                            <div class="card" style="background: #151515;  border: 1; border-color: #e4381C;  margin-top: 15px;""> 
+                                <div class="text-center p-4"> 
+                                    <img id="main-image1" src="img/estampada/ALLPAIN.png" width="300"/>
+                                </div>
+                                <div class="thumbnail text-center"> 
+                                    <img onclick="change_image1(this)" src="img/estampada/ALLPAIN.png" width="70" > 
+                                    <img onclick="change_image1(this)" src="img/estampada/dorso1.png" width="70" > 
+                                </div>
+                                <div class="about text-center" style="color: white;">
+                                    <h4 style="color: white;">Remera All pain no gain </h4>
+                                    <h6 style="color: white;">Algodón de alta calidad </h6>
+                                    <span>$5000.00</span>
+                                </div>                                
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mix workout ">                    
+                    <div class="">                        
+                        <div class="wrapper"style="background: #151515; ">
+                            <div class="card" style="background: #151515; border: 1; border-color: #e4381C;  margin-top: 15px;""> 
+                                <div class="text-center p-4"> 
+                                    <img id="main-image2" src="img/estampada/naturalbodybuilder.png" width="300"/>
+                                </div>
+                                <div class="thumbnail text-center"> 
+                                    <img onclick="change_image2(this)" src="img/estampada/naturalbodybuilder.png" width="70" > 
+                                    <img onclick="change_image2(this)" src="img/estampada/dorso1.png" width="70" > 
+                                </div>
+                                <div class="about text-center" style="color: white;">
+                                    <h4 style="color: white;">Remera Natural bodybuilder </h4>
+                                    <h6 style="color: white;">Algodón de alta calidad </h6>
+                                    <span>$5000.00</span>
+                                </div>                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mix workout">
+                    <div class="">                        
+                        <div class="wrapper"style="background: #151515; ">
+                            <div class="card" style="background: #151515; border: 1; border-color: #e4381C;  margin-top: 15px;""> 
+                                <div class="text-center p-4"> 
+                                    <img id="main-image3" src="img/estampada/peachbois2.png" width="300"/>
+                                </div>
+                                <div class="thumbnail text-center"> 
+                                    <img onclick="change_image3(this)" src="img/estampada/peachbois2.png" width="70" > 
+                                    <img onclick="change_image3(this)" src="img/estampada/dorso1.png" width="70" > 
+                                </div>
+                                <div class="about text-center" style="color: white;">
+                                    <h4 style="color: white;">Remera Peachbois </h4>
+                                    <h6 style="color: white;">Algodón de alta calidad </h6>
+                                    <span>$5000.00</span>
+                                </div>                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mix workout">
+                    <div class="">                        
+                        <div class="wrapper"style="background: #151515; ">
+                            <div class="card" style="background: #151515; border: 1; border-color: #e4381C;  margin-top: 15px;""> 
+                                <div class="text-center p-4"> 
+                                    <img id="main-image4" src="img/estampada/frente2.png" width="300"/>
+                                </div>
+                                <div class="thumbnail text-center"> 
+                                    <img onclick="change_image4(this)" src="img/estampada/frente2.png" width="70" > 
+                                    <img onclick="change_image4(this)" src="img/estampada/liftordie.png" width="70" > 
+                                </div>
+                                <div class="about text-center" style="color: white;">
+                                    <h4 style="color: white;">Remera Lift or die </h4>
+                                    <h6 style="color: white;">Algodón de alta calidad </h6>
+                                    <span>$5000.00</span>
+                                </div>                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mix workout">
+                    <div class="">                        
+                        <div class="wrapper"style="background: #151515; ">
+                            <div class="card" style="background: #151515; border: 1; border-color: #e4381C; margin-top: 15px;"> 
+                                <div class="text-center p-4"> 
+                                    <img id="main-image5" src="img/estampada/frente2.png" width="300"/>
+                                </div>
+                                <div class="thumbnail text-center"> 
+                                    <img onclick="change_image5(this)" src="img/estampada/frente2.png" width="70" > 
+                                    <img onclick="change_image5(this)" src="img/estampada/tothemoon.png" width="70" > 
+                                </div>
+                                <div class="about text-center" style="color: white;">
+                                    <h4 style="color: white;">Remera To the moon </h4>
+                                    <h6 style="color: white;">Algodón de alta calidad </h6>
+                                    <span>$5000.00</span>
+                                </div>                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>`
+        }
+        function showVinilicos(){
+           document.getElementById("test").innerHTML = `
+                <div class="col-lg-4 col-sm-6 mix crossfit">
+                    <div class="">
+                        <div class="wrapper"style="background: #151515; ">
+                            <div class="card" style="background: #151515; border: 1; border-color: #e4381C; margin-top: 15px;"> 
+                                <div class="text-center p-4"> 
+                                    <img id="main-image6" src="img/vinilico/frente.png" width="300"/>
+                                </div>
+                                <div class="thumbnail text-center"> 
+                                    <img onclick="change_image6(this)" src="img/vinilico/frente.png" width="70" > 
+                                    <img onclick="change_image6(this)" src="img/vinilico/liftordie.png" width="70" > 
+                                </div>
+                                <div class="about text-center" style="color: white;">
+                                    <h4 style="color: white;">Remera Lift or die </h4>
+                                    <h6 style="color: white;">Estampado Vinilo premium</h6>
+                                    <span>$3000.00</span>
+                                </div>                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mix  crossfit">
+                    <div class="">
+                        <div class="wrapper"style="background: #151515; ">
+                            <div class="card" style="background: #151515; border: 1; border-color: #e4381C; margin-top: 15px;"> 
+                                <div class="text-center p-4"> 
+                                    <img id="main-image7" src="img/vinilico/frente.png" width="300"/>
+                                </div>
+                                <div class="thumbnail text-center"> 
+                                    <img onclick="change_image7(this)" src="img/vinilico/frente.png" width="70" > 
+                                    <img onclick="change_image7(this)" src="img/vinilico/tothemoon.png" width="70" > 
+                                </div>
+                                <div class="about text-center" style="color: white;">
+                                    <h4 style="color: white;">Remera To the moon </h4>
+                                    <h6 style="color: white;">Estampado Vinilo premium</h6>
+                                    <span>3000.00</span>
+                                </div>                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>`
+        }
+
+        function change_image1(image){
+            var image_container = document.getElementById("main-image1");
+            image_container.src = image.src;
+        } 
+        function change_image2(image){
+            var image_container = document.getElementById("main-image2");
+            image_container.src = image.src;
+        } 
+        function change_image3(image){
+            var image_container = document.getElementById("main-image3");
+            image_container.src = image.src;
+        }  
+        function change_image4(image){
+            var image_container = document.getElementById("main-image4");
+            image_container.src = image.src;
+        } 
+        function change_image5(image){
+            var image_container = document.getElementById("main-image5");
+            image_container.src = image.src;
+        }
+        function change_image6(image){
+            var image_container = document.getElementById("main-image6");
+            image_container.src = image.src;
+        } 
+        function change_image7(image){
+            var image_container = document.getElementById("main-image7");
+            image_container.src = image.src;
+        }            
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
